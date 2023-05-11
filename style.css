@@ -1,0 +1,146 @@
+/* body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+/* navigation styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 20px;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #333;
+}
+
+/* header styles */
+#channel-name {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+#channel-name h1 {
+  margin: 0;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+
+/* introduction styles */
+#introduction {
+  padding: 50px;
+  text-align: center;
+}
+
+#introduction h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#introduction p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* brand styles */
+#target {
+  background-color: #333;
+  padding: 50px;
+  text-align: center;
+}
+
+#target h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#target p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* logo styles */
+#logo {
+  text-align: center;
+  padding: 50px;
+}
+
+#logo img {
+  max-width: 100%;
+}
+
+/* intro video styles */
+#intro-video {
+  text-align: center;
+  padding: 50px;
+}
+
+#intro-video h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#intro-video iframe {
+  max-width: 100%;
+  height: 500px;
+}
+
+#first-video, #second-video {
+  text-align: center;
+  padding: 50px;
+}
+
+#first-video h2, #second-video h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#first-video iframe, #second-video iframe {
+  max-width: 100%;
+  height: 500px;
+  margin: 0 auto; /* center horizontally */
+}
+/* testimonial styles */
+#testimonial {
+  text-align: center;
+  padding: 50px;
+}
+
+#testimonial h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#testimonial p {
+  font-size: 18px;
+  line-height: 1.5;
+}
